@@ -1,0 +1,19 @@
+{
+  "name": "CloudTutorialOG",
+  "version": "0.1.0",
+  "homepage": "https://github.com/oliviagonzalez/CloudTutorial",
+  "authors": [
+    "Gonzalez",
+    "Olivia <olivia.gonzalez@elekta.com>"
+  ],
+  "description": "super cool awesome ninja stuff",
+  "main": "server.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
