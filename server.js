@@ -3,6 +3,7 @@ var Hapi = require('hapi');
 var GoodWinston = require('good-winston');
 var winston = require('winston');
 var server = new Hapi.Server();
+
 server.register({
 register: require('good'),
   options: {
@@ -29,6 +30,17 @@ else {
   server.connection({ port: 1337 });
 }
 
+server.route({
+	method : "GET",
+	path : '/assets/{param*}',
+	handler : {
+      directory : {
+		path : 'bower_components',
+	listing : true
+		}
+	}
+
+});
 server.route({
     method: 'GET',
     path: '/',

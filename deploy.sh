@@ -117,6 +117,14 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd - > /dev/null
 fi
 
+# 4. Install bower packages  
+if [ -e "$DEPLOYMENT_SOURCE/bower.json" ]; then  
+  eval $NPM_CMD install bower  
+  exitWithMessageOnError "installing bower failed"  
+  ./node_modules/.bin/bower install  
+  exitWithMessageOnError "bower failed"  
+fi  
+
 ##################################################################################################################################
 
 # Post deployment stub
