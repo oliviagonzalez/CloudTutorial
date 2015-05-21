@@ -1,4 +1,4 @@
-# OGsCloudTutorial [![Build Status](https://secure.travis-ci.org/oliviagonzalez/CloudTutorial.png?branch=master)](http://travis-ci.org/oliviagonzalez/CloudTutorial)
+# OGsCloudTutorial [![Build Status](https://secure.travis-ci.org/oliviagonzalez/CloudTutorial.png?branch=master)](http://travis-ci.org/oliviagonzalez/CloudTutorial) [![dependency Status](https://david-dm.org/oliviagonzalez/CloudTutorial.svg?branch=master)](https://david-dm.org/oliviagonzalez/CloudTutorial) [![devDependency Status](https://david-dm.org/oliviagonzalez/CloudTutorial/dev-status.svg)](https://david-dm.org/oliviagonzalez/CloudTutorial#info=devDependencies)
 
 OG's Cloud Tutorial
 
